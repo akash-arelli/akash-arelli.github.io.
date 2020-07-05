@@ -9,29 +9,23 @@
   left: 0;
 }
 
-  .schedule a {
-  color: #E12B00;
-  border: none;
+.btn-hollow {
+  background: none;
+  border: 2px solid #e12b00;
+  color: #e12b00;
 }
-
-.schedule a:hover {
-  color: #E12B00;
-  text-decoration: underline;
-  border: none;
+.btn-hollow:hover {
+  background: #e12b00;
 }
-
-.schedule a:active {
-  color: red;
-  text-decoration: underline;
-  border: none;
+.btn-hollow.btn-white {
+  background: none;
+  border-color: #fff;
+  color: #fff;
 }
-
-.schedule a:visited {
-  color: #B82300;
-  text-decoration: none;
-  border: none;
+.btn-hollow.btn-white:hover {
+  background: #fff;
+  color: #e12b00;
 }
-
 .tweets-feed {
   color: #FFFFFF;
   line-height: 25px;
